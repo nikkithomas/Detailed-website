@@ -40,10 +40,11 @@ Header
 	position: absolute;
 }
 .contact{
-	margin-top: 5px;
+	margin-top: 15px;
 	margin-bottom: 5px;
 	margin-right: auto;
-	margin-left: auto;
+	margin-left: 600px;
+	position: absolute;
 	height: 170px;
 	width: 40%;
 	float: right;
@@ -57,6 +58,7 @@ Header
 	margin-top: 140px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-left: 600px;
 
 }
 
@@ -96,7 +98,7 @@ p{
 .name{
 	text-align: right;
 	font-family: Georgia;
-	font-size: 40px;
+	font-size: 42px;
 	font-style: oblique;
 	padding: 0px;
 	margin-bottom: 0;
@@ -111,7 +113,7 @@ p{
 .lastname{
 	text-align: center;
 	font-family: Georgia;
-	font-size: 38px;
+	font-size: 42px;
 	font-style: oblique;
 	padding-right: 0px;
 	padding-top: 0px;
@@ -119,6 +121,17 @@ p{
 	margin: 0px;
 	padding-left: 157px;
 }
+
+.epa{
+	position: absolute;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	width: 20%;
+	height: 170px;
+	margin-left: 950px;
+
+}
+
 /*
 ===========================================
 Slideshow
@@ -250,7 +263,8 @@ Bottom
 */
 
 .bottom{
- position: relative;
+ position: absolute;
+ margin-bottom: 0px;
  width: 90%;
  height: 100px;
  margin-left: auto;
